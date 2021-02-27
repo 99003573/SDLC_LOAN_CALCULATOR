@@ -1,3 +1,5 @@
+#include<stdio.h>
+
 void Carloan()
 
 {
@@ -55,4 +57,5 @@ else
     	     
     printf("EMI AMOUNT PER MONTH IS %lf \n" ,emi);
     	   
+}
 }

@@ -1,4 +1,6 @@
-void Goldloan(){
+#include<stdio.h>
+void Goldloan()
+{
 	            int grams,years;
     	            printf("Enter weight in grams \n");
     	            scanf("%d",&grams);

@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include<string.h>
+#include "goldloan.h"
+#include "carloan.h"
 
-#include "Goldloan.h"
-#include "Carloan.h"
 
-void Goldloan();
-void Carloan();
 int main()
 {
 	 char name[20];

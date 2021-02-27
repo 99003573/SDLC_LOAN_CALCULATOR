@@ -10,7 +10,7 @@ INC	= -IInc
 # All source code files
 SRC = main.c\
 Src/carloan.c\
-Src/goldloan
+Src/goldloan.c
 
 #Test files
 
@@ -19,8 +19,7 @@ TS_H= $(INC)\
 -Iunity\
 -Itest
 # All test source files
-TEST_SRC = 
-unity/unity.c 
+TEST_SRC = unity/unity.c 
 
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
