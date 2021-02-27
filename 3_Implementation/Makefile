@@ -19,7 +19,10 @@ TS_H= $(INC)\
 -Iunity\
 -Itest
 # All test source files
-TEST_SRC = unity/unity.c 
+TEST_SRC = unity/unity.c\
+test/test_goldloan.c\
+test/test_main.c\
+test/test_carloan.c
 
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
