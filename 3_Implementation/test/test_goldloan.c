@@ -1,5 +1,5 @@
 #include "unity.h"
-#include "Goldloan.h"
+#include "goldloan.h"
 #include "test_Goldloan.h"
 
 void test_Goldloan_basic(void)
