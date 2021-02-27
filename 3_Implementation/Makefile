@@ -8,7 +8,9 @@ BUILD = build
 INC	= -IInc
 
 # All source code files
-SRC = 
+SRC = main.c\
+Src/carloan.c\
+Src/goldloan
 
 #Test files
 
