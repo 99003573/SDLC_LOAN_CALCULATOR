@@ -27,5 +27,12 @@ void Goldloan()
         	    double emi = (need/months1)+inte;
         	     
         	    printf("EMI amount per month is %lf \n" ,emi);
-        	   
-	    }
+}
+
+float weight_calc(float weigh)
+{
+	if(weigh<10)
+		return(0.0);
+	else
+		return(1.0);
+}
