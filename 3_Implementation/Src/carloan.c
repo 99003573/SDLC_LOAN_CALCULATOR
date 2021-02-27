@@ -59,3 +59,12 @@ else
     	   
 }
 }
+
+
+float emi_calc(int age)
+{
+    if(age<18)
+        return(0.00);
+    else
+        return(1);
+}
