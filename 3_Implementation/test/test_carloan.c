@@ -4,7 +4,7 @@
 
 void test_Carloan_basic(void)
 {
-	TEST_ASSERT_EQUAL(3407,Carloan(70000);
+	TEST_ASSERT_EQUAL(1,emi_calc(20));
 }
 
 void test_Carloan(void)
