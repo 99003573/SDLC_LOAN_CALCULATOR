@@ -5,7 +5,7 @@
 void test_Goldloan_basic(void)
 {
   
-	TEST_ASSERT_EQUAL(584,Goldloan(5) );
+	TEST_ASSERT_EQUAL(1,weight_calc(20) );
 }
 
 void test_Goldloan(void)
