@@ -22,7 +22,9 @@ TS_H= $(INC)\
 TEST_SRC = unity/unity.c\
 test/test_goldloan.c\
 test/test_main.c\
-test/test_carloan.c
+test/test_carloan.c\
+Src/carloan.c\
+Src/goldloan.c
 
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
