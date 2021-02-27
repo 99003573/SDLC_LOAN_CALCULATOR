@@ -1,24 +1,29 @@
-#include <stdio.h>
-int main()
-{
-    float loanval, emi, grams, basevalue, val, intrest;
-    int carat;
-    printf("enter the gold weight in gms");
-    scanf("%f", &grams);
-    printf("enter the carat value 18 | 20 | 21 | 22 | 24");
-    scanf("%d", &carat);
-    printf("enter the intrest value");
-    scanf("%f", &intrest);
-    printf("enter the basevalue");
-    scanf("%f", &basevalue);
-    if (carat >= 18 && carat <= 24)
-    {
-        val = (carat/24)*basevalue;
-        
-        basevalue = val - basevalue;
-        loanval = grams * basevalue;
-        printf("%f",val);
-    }
-    
-    return 0;
-}
+void Goldloan(){
+	            int grams,years;
+    	            printf("Enter weight in grams \n");
+    	            scanf("%d",&grams);
+    		    printf("Enter time in years \n");
+    		    scanf("%d",&years);
+        	    int  months;
+        	    double need;
+        	    int months1=years*12;
+        	    double amount = grams*2300;
+        	  
+        	    
+        	    
+        	    
+        	    printf("Sanctioned loan amount is %lf \n",amount);
+        	    printf("Amount you need ");
+        	    scanf("%lf",&need);
+        	    
+        	     double inte = 0.009*need;
+        	     while(need>amount)
+        	     {
+        	         printf("Please enter the amount below the sanctioned amount");
+        	         scanf("%lf",&need);
+        	     }
+        	    double emi = (need/months1)+inte;
+        	     
+        	    printf("EMI amount per month is %lf \n" ,emi);
+        	   
+	    }
