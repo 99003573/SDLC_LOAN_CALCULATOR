@@ -1,6 +1,6 @@
 #include "unity.h"
 #include "goldloan.h"
-#include "test_Goldloan.h"
+#include "test_goldloan.h"
 
 void test_Goldloan_basic(void)
 {
