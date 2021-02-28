@@ -25,9 +25,9 @@ Name                           |   PS No.  |    Features    | Issuess Raised |  
 
 Name | PS Number | No. of Test Cases | No. of Test Cases Passed | No. of Test Cases not Passed 
 -----|-----------|-------------------|--------------------------|------------------------------
-`1) K.SRINIVASULU` | 99003580  | 4  | 4  | 0
+`1) K.SRINIVASULU` | 99003580  | 2  | 2  | 0
 `2) PRADEEP U`               | 99003573  | 4  | 4  | 0
-`3) NANDYALA NAVEEN KUMAR REDDY`   | 99003604| 3  | 3  | 0
+`3) NANDYALA NAVEEN KUMAR REDDY`   | 99003604| 4  | 4  | 0
 
 
 
